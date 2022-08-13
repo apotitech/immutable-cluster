@@ -9,10 +9,6 @@ variable "ami_id" {
   default = ""
 }
 
-variable "domain" {
-  default = ""
-}
-
 terraform {
   required_providers {
     aws = {
