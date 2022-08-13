@@ -399,7 +399,7 @@ The first `listener` will listen on port 80 and redirect the traffic to port 443
 
 The second  `listener` will serve a tls certificate, that is imported from `ACM`, on port 443. After the `TLS handshake` it will forward the traffic over http on port 80 to the target group, also known asl `TLS Termination`.
 
-I am assuming that you already have uploaded your own cert or issues one with ACM. There [a branch without tls](https://github.com/bluebrown/immutable-cluster/tree/no-tls) in this repo.
+I am assuming that you already have uploaded your own cert or issues one with ACM. There [a branch without tls](https://github.com/apotitech/immutable-cluster/tree/no-tls) in this repo.
 
 The `target group` will be populated by the `auto scaling group` in the next section.
 
