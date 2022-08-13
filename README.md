@@ -2,7 +2,7 @@
 
 > Immutable infrastructure is an approach to managing services and software deployments on IT resources wherein components are replaced rather than changed. An application or services is effectively redeployed each time any change occurs.
 
-In this post I am going to show how one can create a workflow based in the idea of immutable infrastructure. You can find the full working code in github <https://github.com/bluebrown/immutable-cluster>.
+In this post I am going to show how one can create a workflow based in the idea of immutable infrastructure. You can find the full working code in github <https://github.com/apotitech/immutable-cluster>.
 
 ## The Recipe
 
